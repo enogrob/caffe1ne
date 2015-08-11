@@ -18,7 +18,7 @@ Tiny utility to prevent your PC from locking, sleeping or activating screensaver
     <copyright> Loonies Software</copyright>
     <licenseUrl>http://www.loonies.narod.ru</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/enogrob/caffe1ne/master/images/caffe1ne.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
