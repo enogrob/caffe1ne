@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>caffe1ne</id>
+    <title>caffe1ne (Install)</title>
+    <version>1.5</version>
+    <authors>Loonies Software</authors>
+    <owners>Roberto Nogueira</owners>
+    <summary>Tiny utility to prevent your PC from locking.</summary>
+    <description>
+Tiny utility to prevent your PC from locking, sleeping or activating screensaver after idle time determined by various system settings. This program does not change these settings, what may be useful if you need to have effect not long time, because after restarting OS or system crash there is no options to be saved. Actual effect works by simulating that you've pressed the SHIFT key once every 59 seconds.
+    </description>
+    <projectUrl>http://www.loonies.narod.ru</projectUrl>
+    <packageSourceUrl>http://www.loonies.narod.ru</packageSourceUrl>
+    <tags>prevents locking</tags>
+    <copyright> Loonies Software</copyright>
+    <licenseUrl>http://www.loonies.narod.ru</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
